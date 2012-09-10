@@ -1,0 +1,29 @@
+// write your CSS in here
+
+/*Wolf Icon*/
+#indexIcon{
+			text-align:center;
+}
+
+/*welcome to Wolflinx Title*/
+#topCtaTitle{
+			color:#a62800;
+			font-size:18pt;
+}
+
+#openingStatement{
+			color:black;
+
+}
+
+#fun{
+		color:black;
+}
+#education{
+		color:black;
+}
+#work{
+		color:white;
+}
+
+

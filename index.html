@@ -1,0 +1,327 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<!--Meta-tags-->
+		<meta charset="utf-8">	
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+		<!-- StyleSheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" /> 
+		<link rel="stylesheet" href="css/style.css"/>
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+
+<body>
+
+									<!--Home page-->
+	<div data-role="page" id="home">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<header>
+          		<div id="indexIcon"style="text-align:center;">
+          	 		<a> 				
+          	 			<img id="logo"src="images/wolfhead.jpg">
+          	 		</a>
+<!--Navbar-->	<div data-role="navbar">
+						<ul>
+							<li><a href="#sign-up" data-icon="star">Sign-Up</a></li>
+							<li><a href="#sign-in" data-icon="home">Sign-in</a></li>
+							<li><a href="#about" data-icon="info">Link to App "A"</a></li>
+							<li><a href="#browse" data-icon="search">Browse</a></li>
+						</ul>			
+		        		<ul data-role="listview" data-filter="true" data-mini="true">
+		        		</ul>
+					</div>
+          		</div>
+    	<div id="header"style="background-color:#F6F3D2;border:5px solid orange;border-style: groove;text-align:center; height:90px;">
+			<header id="topCtaTitle">Welcome to Wolflinx </header>
+			    <a id="openingStatement"data-rel="dialog">Organize and store everything you do on-line in one place.</a><br>
+				<a id="joinNow"href="#additem.html"> Join Now</a>
+		    </header>
+		</div>
+	
+<!--Home-Page Main Nav Buttons-->
+			
+		<div data-role="content">
+				<ul data-role="button" data-mini="true" data-theme="e">
+					<li>
+						<a href="#fun">
+						<img src="images/funFace.png"/>
+							<h3>Fun</h3>
+							<p>Games, Digital Media, Social Networks</p>
+						</a>
+					</li>
+				</ul>
+				<ul data-role="button" data-mini="true" data-theme="b">
+					<li>
+						<a href="#ed">
+						<img src="images/edIcon.jpeg"/>
+							<h3>Education</h3>
+							<p>Research, School-info, Contacts and Correspondance</p>
+						</a>
+					</li>
+				</ul>
+				<ul data-role="button" data-mini="true" data-theme="a">
+					<li>
+						<a href="#work">
+							<img src="images/workIcon.jpeg"/>
+							<h3>Work</h3>
+							<p>Research, Current Projects, Contacts</p>
+						</a>
+					</li>
+				</ul>
+		</div>
+	</div>
+	
+								
+								<!--Fun Page-->
+		
+	<div data-role="page" id="fun" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed" >
+			<h1>Fun</h1>
+		</div>
+				
+		<div data-role="header" data-position="fixed" data-theme="e">
+			<header>
+          		<div id="logo"id="indexIcon" style="text-align:center;">
+          	 		<a> 				
+          	 			<img id = "logo" src="images/wolfhead.jpg">
+          	 		</a>
+<!--Navbar-->		<div data-role="navbar" data-theme="b">
+						<ul>
+							<li><a href="#sign-up"data-icon="star"data-theme="b">Sign-Up</a></li>
+							<li><a href="#sign-in"data-icon="home"data-theme="b">Sign-in</a></li>
+							<li><a href="#about"data-icon="info"data-theme="b">Link to App "A"</a></li>
+							<li><a href="#browse"data-icon="search"data-theme="b">Browse</a></li>
+						</ul>			
+		        		<ul data-role="listview"data-filter="true"data-mini="true">
+		        		</ul>
+					</div>
+          		</div>
+          	</header>
+<!--Fun Category Buttons-->
+          	
+          <div data-role="content" >
+			<ul data-role="listview" data-theme="b">
+				<li>
+					<a href="#networks">
+						<img src="images/networksIcon.jpeg"/>
+<!--Soc & Biz Networks-->	<h3>Social & Business Networks</h3>
+							<p>Access all your favorites here</p>
+					</a>
+				</li>
+			</ul>	
+			<ul data-role="listview" data-theme="b">
+				<li><a href="#games">
+						<img src="images/gameIcon.png"/>
+<!--Games-->				<h3>Games</h3>
+							<p>Access Games</p>
+					</a>
+				</li>
+			<ul data-role="listview" data-theme="b">
+			</ul>	
+				<li>
+					<a href="#digitalMedia">
+						<img src="images/digitalMediaIcon.jpeg"/>
+<!--Digital Media-->		<h3>Digital Media</h3>
+							<p>Music and Videos</p>
+					</a>		
+				</li>
+			</ul>			
+		</div>
+			
+		<div data-role="footer" data-position="fixed" data-id="footer">
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+				</ul>			
+			</div>
+	    
+		</div>
+
+								<!--Education Page-->
+	
+	<div data-role="page" id="ed" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Education</h1>
+			</div>
+		</div>
+	<div data-role="header"data-position="fixed"data-theme="e">
+			<header>
+          		<div id="logo"id ="indexIcon" style="text-align:center;">
+          	 		<a> 				
+          	 			<img id ="logo" src="images/wolfhead.jpg">
+          	 		</a>
+<!--Navbar-->		<div data-role="navbar" data-theme="b">
+						<ul>
+							<li><a href="#sign-up"data-icon="star"data-theme="b">Sign-Up</a></li>
+							<li><a href="#sign-in"data-icon="home"data-theme="b">Sign-in</a></li>
+							<li><a href="#about"data-icon="info"data-theme="b">Link to App "A"</a></li>
+							<li><a href="#browse"data-icon="search"data-theme="b">Browse</a></li>
+						</ul>			
+		        		<ul data-role="listview"data-filter="true"data-mini="true">
+		        		</ul>
+					</div>
+          		</div>
+          	</header>	
+<!--Education Category Buttons-->
+			
+	<div data-role="content">
+			<ul data-role="listview" data-theme="b">
+				<li>
+					<a href="#schoolInfo">
+						<img src="images/networksIcon.jpeg"/>
+<!--School Info-->			<h3>School Info</h3>
+							<p>All Details Here</p>
+					</a>
+				</li>
+			</ul>
+			<ul data-role="listview" data-theme="b">
+				<li>
+					<a href="#research">
+						<img src="images/gameIcon.png"/>
+<!--Research-->				<h3>Research</h3>
+							<p>Contains your Project Libraries and References</p>
+					</a>
+				</li>
+			</ul>
+			<ul data-role="listview" data-theme="b">
+
+				<li>
+					<a href="#prospects>
+						<img src="images/digitalMediaIcon.jpeg"/>
+<!--Prospects-->			<h3>Prospects</h3>
+							<p>Internshipes, Jobs, other Schools and anyhting on the Horizon</p>
+					</a>		
+				</li>
+			</ul>			
+		</div>
+			
+		<div data-role="footer"data-position="fixed"data-id="footer">
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"data-icon="home">Home</a></li>
+				</ul>			
+			</div>
+	    </div>
+	</div>
+	
+	
+							
+							
+							
+							
+							<!--Work-->
+	<div data-role="page"id="work"data-add-back-btn="true">
+		<div data-role="header"data-position="fixed" >
+			<h1>Work</h1>
+		</div>
+				
+		<div data-role="header"data-position="fixed"data-theme="e">
+			<header>
+          		<div id ="indexIcon"style="text-align:center;">
+          	 		<a> 				
+          	 			<img id ="logo"src="images/wolfhead.jpg">
+          	 		</a>
+<!--Navbar-->		<div data-role="navbar"data-theme="b">
+						<ul>
+							<li><a href="#sign-up"data-icon="star"data-theme="b">Sign-Up</a></li>
+							<li><a href="#sign-in"data-icon="home"data-theme="b">Sign-in</a></li>
+							<li><a href="#about"data-icon="info"data-theme="b">Link to App "A"</a></li>
+							<li><a href="#browse"data-icon="search"data-theme="b">Browse</a></li>
+						</ul>			
+		        		<ul data-role="listview"data-filter="true"data-mini="true">
+		        		</ul>
+					</div>
+          		</div>
+          	</header>
+<!--Work Category Buttons-->
+          	
+          <div data-role="content" >
+			<ul data-role="listview"data-theme="b">
+				<li>
+					<a href="#contacts" id="contacts">
+						<img src="images/networksIcon.jpeg"/>
+<!--Contacts-->				<h3>Contacts</h3>
+							<p>Who you know</p>
+					</a>
+				</li>
+			</ul>	
+			<ul data-role="listview" data-theme="b">
+				<li><a href="#projects" id="projects">
+						<img src="images/gameIcon.png"/>
+<!--Projects-->				<h3>Projects</h3>
+							<p>What you have going on</p>
+					</a>
+				</li>
+			<ul data-role="listview" data-theme="b">
+			</ul>	
+				<li>
+					<a href="#research" id="research"">
+						<img src="images/digitalMediaIcon.jpeg"/>
+<!--Research-->				<h3>Research</h3>
+							<p>What you've found out</p>
+					</a>		
+				</li>
+			</ul>			
+		</div>
+			
+		<div data-role="footer"data-position="fixed"data-id="footer">
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"data-icon="home">Home</a></li>
+				</ul>			
+			</div>
+	    
+		</div>
+		</div>
+	
+
+<!-- JavaScript -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+
+
+<!--Education Accordian Files
+				
+	<div data-role="content">
+			<div data-role="collapsible-set">
+				<div data-role="collapsible" data-collapsed="true" data-theme="a">
+					<h3>Current Projects</h3>
+					<p>Look at your current projects</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true"  data-theme="a">
+					<h3>Research Links and Files</h3>
+					<p>All your school related research and projects</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true" data-theme="a">
+					<h3>Finance and Correspondance</h3>
+				<li>Finance</li>
+				<li>Correspondance</li>
+			</div>
+		</div>
+	</div>
+			
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#favorite" data-icon="star" class="ui-btn-active">Favorite</a></li>
+				<li><a href="#change" data-icon="gear">Change</a></li>
+				<li><a href="#search" data-icon="search">Search</a></li>
+			</ul>			
+		</div>
+	</div>
+</div>-->
+
+
+	
+
+
